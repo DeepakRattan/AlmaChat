@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/viewContacts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:layout_weight=".2"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin20"
+        android:text="View Contacts"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:background="#c0c0c0" />
+
+    <TextView
+        android:id="@+id/archiveChat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:layout_weight=".2"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin20"
+        android:text="Archive Chat"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:background="#c0c0c0" />
+
+    <TextView
+        android:id="@+id/deleteChat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:layout_weight=".2"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin20"
+        android:text="Delete Chat"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:background="#c0c0c0" />
+
+    <TextView
+        android:id="@+id/markAsUnread"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:layout_weight=".2"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin20"
+        android:text="Mark as unread"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:background="#c0c0c0" />
+
+    <TextView
+        android:id="@+id/emailChat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/margin20"
+        android:layout_marginTop="@dimen/margin10"
+        android:layout_weight=".2"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin20"
+        android:text="Email Chat"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

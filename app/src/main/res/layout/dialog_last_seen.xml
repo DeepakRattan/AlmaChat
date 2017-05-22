@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding10"
+    android:layout_marginBottom="@dimen/margin20">
+
+    <RadioGroup
+        android:id="@+id/radioGroupLastSeen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/everyone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black_color"
+            android:checked="true"
+            android:text="EveryOne"
+            android:textColor="@color/black_color" />
+
+        <RadioButton
+            android:id="@+id/myContacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black_color"
+            android:text="My Contacts"
+            android:textColor="@color/black_color" />
+
+        <RadioButton
+            android:id="@+id/nobody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black_color"
+            android:text="Nobody"
+            android:textColor="@color/black_color" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Cancel"
+        android:padding="@dimen/padding10"
+        android:layout_marginBottom="@dimen/margin20"/>
+
+</LinearLayout>

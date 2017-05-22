@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding10">
+
+
+    <com.almabay.almachat.circularImageView.CircularImageView
+        android:id="@+id/imgContact"
+        android:layout_width="80dp"
+        android:layout_height="80dp "
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:id="@+id/online"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignRight="@+id/imgContact"
+        android:layout_alignTop="@+id/imgContact"
+        android:background="@drawable/circle_green" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin10"
+        android:layout_toRightOf="@+id/imgContact"
+        android:orientation="vertical"
+        android:padding="@dimen/padding5">
+
+        <TextView
+            android:id="@+id/txtNam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neeraj"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/stats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin10"
+            android:text="Welocme to Almachat" />
+
+    </LinearLayout>
+
+</RelativeLayout>

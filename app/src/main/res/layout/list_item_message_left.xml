@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding20">
+
+    <com.almabay.almachat.circularImageView.CircularImageView
+        android:id="@+id/imageFriend"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="@dimen/margin10" />
+
+    <com.rockerhieu.emojicon.EmojiconTextView
+        android:id="@+id/txtMesg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_msg_from"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/title_gray"
+        android:textSize="16dp"
+        emojicon:emojiconAlignment="baseline" />
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin10"
+        android:layout_toRightOf="@+id/txtMsg"
+        android:gravity="bottom"
+        android:text="test"
+        android:textSize="10sp" />
+
+</LinearLayout>

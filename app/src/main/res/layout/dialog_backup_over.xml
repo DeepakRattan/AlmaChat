@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding10">
+
+    <RadioGroup
+        android:id="@+id/radioGroupBackOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wi-Fi" />
+
+    <RadioButton
+        android:id="@+id/wifi_cellular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wi-Fi or cellular" />
+
+</RadioGroup>
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="@dimen/margin20">
+
+<Button
+    android:id="@+id/btnCancelBackUpOver"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="@dimen/margin20"
+    android:background="@color/orange_color"
+    android:text="Cancel"
+    android:textColor="@color/while_color" />
+</RelativeLayout>
+
+    </LinearLayout>

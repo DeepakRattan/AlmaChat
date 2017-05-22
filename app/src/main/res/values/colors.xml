@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_gray">#434343</color>
+    <color name="bg_msg_from">#ffffff</color>
+    <color name="bg_msg_you">#FFDA9A</color>
+    <color name="tab_text_color">#CDCDCD</color>
+    <color name="tab_selected_text_color">#969696</color>
+    <color name="while_color">#FFFFFF</color>
+    <color name="orange_color">#FBAC26</color>
+    <color name="gray_color">#969696</color>
+    <color name="divider_background">#f9f4f4</color>
+    <color name="green_color">#0ccc78</color>
+    <color name="black_color">#000000</color>
+    <color name="account_setting_background_color">#EEEEEE</color>
+    <color name="toolbar_color">#09436B</color>
+</resources>

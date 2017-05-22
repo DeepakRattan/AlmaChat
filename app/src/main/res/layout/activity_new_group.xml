@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBarNewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar_color"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:id="@+id/txtCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:drawableLeft="@drawable/single_tick"
+            android:drawablePadding="@dimen/padding5"
+            android:gravity="right"
+            android:paddingRight="@dimen/padding10"
+            android:text="Create"
+            android:textSize="16sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin10">
+
+        <com.almabay.almachat.circularImageView.CircularImageView
+            android:id="@+id/groupPic"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="bottom|center_horizontal" />
+
+        <com.almabay.almachat.circularImageView.CircularImageView
+            android:id="@+id/iv_camera_group"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="@dimen/margin30"
+            android:background="@drawable/color"
+            android:src="@drawable/camera1" />
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/edtGroupName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin10"
+        android:layout_marginTop="@dimen/margin20"
+        android:background="@drawable/edittext_bottom_border_orange"
+        android:hint="Type group subject here ..."
+        android:paddingBottom="@dimen/padding10" />
+
+    <ListView
+        android:id="@+id/lv_friends"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

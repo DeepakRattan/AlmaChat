@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding10">
+
+    <com.almabay.almachat.circularImageView.CircularImageView
+        android:id="@+id/imgFriend"
+        android:layout_width="80dp"
+        android:layout_height="80dp "
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin10"
+        android:layout_toRightOf="@+id/imgFriend"
+        android:orientation="vertical"
+        android:padding="@dimen/padding5">
+
+        <TextView
+            android:id="@+id/txtNameFriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="testing" />
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgSingleTick"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:src="@drawable/single_tick" />
+
+            <ImageView
+                android:id="@+id/imgSingleYellowTick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/single_yellow_tick"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/imgDoubleTick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dubble_tick"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txtMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin5"
+                android:text="test message" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgMoreoption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin10"
+            android:src="@drawable/more_option" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin20"
+            android:text="time" />
+
+        <TextView
+            android:id="@+id/txtFriendsID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+</RelativeLayout>

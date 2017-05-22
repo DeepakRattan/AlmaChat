@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding10"
+    android:background="@color/while_color">
+
+    <TextView
+        android:id="@+id/groupInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Group Information"
+        android:layout_marginTop="@dimen/margin10"
+        android:padding="@dimen/padding10"
+        android:textSize="16sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/divider_background" />
+    <TextView
+        android:id="@+id/archive_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Archive Chat"
+        android:padding="@dimen/padding10"
+        android:textSize="16sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/divider_background" />
+    <TextView
+        android:id="@+id/exitGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit Group"
+        android:padding="@dimen/padding10"
+        android:textSize="16sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/divider_background" />
+    <TextView
+        android:id="@+id/markAsUnread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mark as unread"
+        android:padding="@dimen/padding10"
+        android:textSize="16sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/divider_background" />
+    <TextView
+        android:id="@+id/email_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Chat"
+        android:padding="@dimen/padding10"
+        android:textSize="16sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/divider_background"
+        android:layout_marginBottom="@dimen/margin10"/>
+
+</LinearLayout>

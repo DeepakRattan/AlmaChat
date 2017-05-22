@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup"
+        android:layout_marginTop="@dimen/margin20">
+
+        <RadioButton
+            android:id="@+id/radioBtnOne"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:checked="false"
+            android:background="@drawable/button_selector"
+            android:button="@null"
+            android:layout_marginRight="@dimen/margin10"/>
+
+        <RadioButton
+            android:id="@+id/radioBtnTwo"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:checked="false"
+            android:background="@drawable/button_selector"
+            android:button="@null"
+            android:layout_marginRight="@dimen/margin10"/>
+
+        <RadioButton
+            android:id="@+id/radioBtnThree"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:checked="false"
+            android:background="@drawable/button_selector"
+            android:button="@null"/>
+
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FBAC26"
+        android:text="Next"
+        android:textColor="@color/while_color" />
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/groupInfo"
+        android:title="Group Information"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/viewContact"
+        android:title="View Contacts"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/groupMedia"
+        android:title="Group Media"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mute"
+        android:title="Mute"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/emailchat"
+        android:title="Email Chat"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/clear_chat"
+        android:title="Clear Chat"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_attach"
+        android:icon="@drawable/attach"
+        android:orderInCategory="100"
+        android:title="Attach"
+        app:showAsAction="always" />
+
+</menu>
